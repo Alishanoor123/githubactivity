@@ -1,0 +1,198 @@
+.main
+        {
+            background-color: #041643;
+            justify-self: center;
+            width: 900px;
+            height: 625px;
+            align-content: center;
+        }
+        .mainin
+        {
+            
+           justify-self: center;
+            width: 716px;
+            height: 450px;
+            display: grid;
+            grid-template-rows: 35% 65%;
+        }
+        .first
+        {
+            
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+            
+        }
+        .tex
+        {
+            font-size: 24px;
+            margin-top: 4px;
+            /* font-weight: bold; */
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .text
+        {
+            font-size: 24px;
+            /* font-weight: bold; */
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .texts
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+        .cir1
+        {
+            border: 4px solid blue;
+            width: 25px;
+            height: 25px;
+            border-radius: 20px;
+            align-content: center;
+        }
+        .cir2
+        {
+            width: 15px;
+            height: 15px;
+            background-color: blue;
+            border-radius: 10px;
+            justify-self: center;
+           
+        }
+        .t{
+            font-size: 12.5px;
+            color: #8d8f9b;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .second
+        {
+            display: flex;
+            flex-direction: row;
+            column-gap: 190px;
+            /* border: 1px solid black; */
+        }
+        .login
+        {
+            background-color: white;
+            border-radius: 12px;
+            height: 280px;
+            width: 360px;
+            
+            align-content: center;
+        }
+        .te
+        {
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .tee
+        {
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .loginin
+        {
+            width: 300px;
+            height: 190px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            justify-self: center;
+            /* border: 1px solid black; */
+        }
+        .email
+        {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+        }
+        input
+        {
+            padding-left: 13px;
+            width: 283px;
+            height: 30px;
+            border-radius: 4px;
+            border: 1px solid rgb(202, 199, 199);
+        }
+        .last
+        {
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+            align-items: center;
+        }
+        .box
+        {
+            background-color: blue;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            color: white;
+            align-content: center;
+        }
+        .tt{
+            font-size: 12px;
+             justify-self: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media (max-width:270px)
+        {
+            .main{
+                width: 268px;
+               
+                
+                
+            }
+            .mainin{
+                width: 230px;
+                display: grid;
+                height: 520px;
+                
+                grid-template-rows:16% 80% ;
+            }
+            .second
+            {
+                flex-wrap: wrap;
+                display: flex;
+                flex-direction: column;
+                row-gap: 55px;
+            }
+            .login
+            {
+                width: 230px;
+                height: 280px;
+            }
+            .loginin
+            {
+                width: 200px;
+                height: 230px;
+               
+            }
+            .last
+            {
+                display: flex;
+                flex-direction: column;
+                
+            }
+            input
+            {
+                width: 185px;
+            }
+            .box
+            {
+                margin-top: -75px;
+                width: 200px;
+            }
+            .tee
+            {
+                margin-top: 50px;
+                margin-left: -30px;
+               
+            }
+
+        }
